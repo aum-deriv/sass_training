@@ -1,0 +1,26 @@
+body {
+  background: #272727;
+}
+
+.main {
+  color: #fff;
+}
+.main p {
+  background: red;
+}
+
+.regular-font {
+  font-weight: 200;
+}
+
+.medium-font {
+  font-weight: 500;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+.outer-para {
+  background: green;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+@import './variables';
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
+
+body {
+    background: $primary-color;
+}
+
+.main {
+    color: $text-color;
+    p {
+        background: $nested-para-bg-color;
+    }
+}
+
+.regular-font {
+    font-weight: map-get($font-weights, regular);
+}
+
+.medium-font {
+    font-weight: map-get($font-weights, medium);
+}
+
+.bold-font {
+    // using the function weight().
+    font-weight: weight(bold);
+}
+
+.outer-para {
+    background: $outer-para-bg-color;
+}
